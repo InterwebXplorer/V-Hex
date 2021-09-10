@@ -34,4 +34,5 @@ No current changes have been made
 - Online features
 - Support for other 3d workspaces
 - Auto open blender ect.
+- Standalone version
 - Gui
