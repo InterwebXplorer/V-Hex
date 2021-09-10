@@ -36,3 +36,4 @@ No current changes have been made
 - Auto open blender ect.
 - Standalone version
 - Gui
+- Automation changes
