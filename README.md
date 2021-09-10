@@ -1,7 +1,7 @@
 # Valorant Asset Extractor For Blender
 
-An asset extractor for valorant coded in python 
-/nTo report any issues ect contact me on discord [Internet Explorer#7105]
+--An asset extractor for valorant coded in python 
+--To report any issues ect contact me on discord [Internet Explorer#7105]
 
 ## Requirements
 
