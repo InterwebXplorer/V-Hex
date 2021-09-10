@@ -85,7 +85,7 @@ KNIFESKIN = {
     "ruination": [
         ""
     ],
-    "sentinels of light": [
+    "sentinelsoflight": [
         ""
     ],
     "singularity": [
@@ -106,10 +106,10 @@ KNIFESKIN = {
     "spline": [
         ""
     ],
-    "tethered realms": [
+    "tetheredrealms": [
         ""
     ],
-    "valorant go vol. 1": [
+    "valorantgovol1": [
         ""
     ],
     "winterwunderland": [
@@ -122,61 +122,61 @@ CLASSICSKIN = {
     "standard": [
         ""
     ],
-    "": [
+    "avalanche": [
         ""
     ],
-    "": [
+    "finalchamber": [
         ""
     ],
-    "": [
+    "fire/arm": [
         ""
     ],
-    "": [
+    "word.exe": [ #forsaken
         ""
     ],
-    "": [
+    "galleria": [
         ""
     ],
-    "": [
+    "glitchpop": [
         ""
     ],
-    "": [
+    "g.u.n": [
         ""
     ],
-    "": [
+    "infinity": [
         ""
     ],
-    "": [
+    "kingdom": [
         ""
     ],
-    "": [
+    "pistolinha": [
         ""
     ],
-    "": [
+    "prime": [
         ""
     ],
-    "": [
+    "prism3": [
         ""
     ],
-    "": [
+    "redallert": [
         ""
     ],
-    "": [
+    "sakura": [
         ""
     ],
-    "": [
+    "smite": [
         ""
     ],
-    "": [
+    "songsteel": [
         ""
     ],
-    "": [
+    "spectrum": [
         ""
     ],
-    "": [
+    "spline": [
         ""
     ],
-    "": [
+    "surge": [
         ""
     ],
 }
@@ -186,31 +186,31 @@ SHORTYSKIN = {
     "standard": [
         ""
     ],
-    "": [
+    "aerosol": [
         ""
     ],
-    "": [
+    "hivemind": [
         ""
     ],
-    "": [
+    "monarch": [
         ""
     ],
-    "": [
+    "oni": [
         ""
     ],
-    "": [
+    "prism2": [
         ""
     ],
-    "": [
+    "ruin": [
         ""
     ],
-    "": [
+    "snakebite": [
         ""
     ],
-    "": [
+    "wasteland": [
         ""
     ],
-    "": [
+    "wunderkind": [
         ""
     ],
 }
@@ -220,49 +220,49 @@ FRENZYSKIN = {
     "standard": [
         ""
     ],
-    "": [
+    "blastx": [
         ""
     ],
-    "": [
+    "celestial": [
         ""
     ],
-    "": [
+    "couture": [
         ""
     ],
-    "": [
+    "elderflame": [
         ""
     ],
-    "": [
+    "glitchpop": [
         ""
     ],
-    "": [
+    "horizon": [
         ""
     ],
-    "": [
+    "lightwave": [
         ""
     ],
-    "": [
+    "monarch": [
         ""
     ],
-    "": [
+    "origin": [
         ""
     ],
-    "": [
+    "prime2": [
         ""
     ],
-    "": [
+    "ragnarocker": [
         ""
     ],
-    "": [
+    "rush": [
         ""
     ],
-    "": [
+    "sensation": [
         ""
     ],
-    "": [
+    "spitfire": [
         ""
     ],
-    "": [
+    "swooping": [
         ""
     ],
 }
@@ -272,70 +272,70 @@ GHOSTSKIN = {
     "standard": [
         ""
     ],
-    "": [
+    "artisan": [
         ""
     ],
-    "": [
+    "cavalier": [
         ""
     ],
-    "": [
+    "depths": [
         ""
     ],
-    "": [
+    "dotexe": [
         ""
     ],
-    "": [
+    "eclipse": [
         ""
     ],
-    "": [
+    "ego": [
         ""
     ],
-    "": [
+    "hush": [
         ""
     ],
-    "": [
+    "infantry": [
         ""
     ],
-    "": [
+    "jigsaw": [
         ""
     ],
-    "": [
+    "luxe": [
         ""
     ],
-    "": [
+    "magepunk": [
         ""
     ],
-    "": [
+    "outpost": [
         ""
     ],
-    "": [
+    "prism": [
         ""
     ],
-    "": [
+    "recon": [
         ""
     ],
-    "": [
+    "ruination": [
         ""
     ],
-    "": [
+    "serenity": [
         ""
     ],
-    "": [
+    "soulsilencer": [
         ""
     ],
-    "": [
+    "sovereign": [
         ""
     ],
-    "": [
+    "tetheredrealms": [
         ""
     ],
-    "": [
+    "valorantgovol1": [
         ""
     ],
-    "": [
+    "vendetta": [
         ""
     ],
-    "": [
+    "winterwunderland": [
         ""
     ],
 }
@@ -414,15 +414,123 @@ SHERIFFSKIN = {
 }
 
 
-STINGERSKIN = { #14
+STINGERSKIN = {
     "standard": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
         ""
     ],
 }
 
 
-SPECTRESKIN = { #24
+SPECTRESKIN = {
     "standard": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
         ""
     ],
 }
