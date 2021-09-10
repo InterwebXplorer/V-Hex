@@ -8,12 +8,12 @@ To report any issues ect contact me on discord [Internet Explorer#7105]
 
 - Blender 2.93 or higher
 - (NULL)gb of storage
+- Valorant installed on your current device 
 
 ## Feature List
 
 - Basic asset extractor
 - Basic texturing
-- 
 
 ## Instructions
 
