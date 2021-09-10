@@ -7,12 +7,13 @@ To report any issues ect contact me on discord [Internet Explorer#7105]
 ## Requirements
 
 - Blender 2.93 or higher
-- (VOID)gb of storage
+- (NULL)gb of storage
 
 ## Feature List
 
+- Basic asset extractor
+- Basic texturing
 - 
-
 
 ## Instructions
 
@@ -30,3 +31,5 @@ No current changes have been made
 - Optimisation changes
 - Online features
 - Support for other 3d workspaces
+- Auto open blender ect.
+- Gui
