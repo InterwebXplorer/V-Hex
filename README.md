@@ -2,7 +2,9 @@
 
 An asset extractor for valorant coded in python 
 <br>
-To report any issues ect contact me on discord [Internet Explorer#7105]
+To report any issues ect. contact me on discord [Internet Explorer#7105]
+<br>
+or on github [https://github.com/InterwebXplorer/V-Hex]
 
 ## Requirements
 
