@@ -1,0 +1,5 @@
+ASTRAPATHS = {
+    "ASTRAMODEL": [
+        ""
+    ]
+}

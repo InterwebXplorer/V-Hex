@@ -1,29 +1,28 @@
-# Valorant Asset Extractor For Blender
+Valorant Asset Extractor For Blender
 
 An asset extractor for valorant written in python 
-<br>
 To report any issues etc. contact me on discord [Internet Explorer#7105]
 
-## Requirements
+Requirements
 
 - Blender 2.93 or higher
 - (NULL)gb of storage
 - Valorant installed on your current device 
 
-## Feature List
+Feature List
 
 - Basic asset extractor
 - Basic texturing
 
-## Instructions
+Instructions
 
 TODO
 
-## Changelog
+Changelog
 
 No current changes have been made
 
-## Planed Features
+Planed Features
 
 - Support for map extraction
 - Full texture support
