@@ -1,0 +1,4 @@
+add val go vol 2 paths
+finish other file paths
+add buddy paths
+finish base script
