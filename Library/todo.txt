@@ -1,4 +1,4 @@
 add val go vol 2 paths
-finish other file paths
-add buddy paths
+Add weapon paths
+Add buddy paths
 finish base script
