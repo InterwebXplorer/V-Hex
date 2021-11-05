@@ -2,6 +2,7 @@ Valorant Asset Extractor For Blender
 
 An asset extractor for valorant written in python 
 To report any issues etc. contact me on discord [Internet Explorer#7105]
+This is a work in progress and unusable in its current state
 
 Requirements
 

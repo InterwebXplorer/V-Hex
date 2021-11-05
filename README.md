@@ -3,6 +3,8 @@
 An asset extractor for valorant written in python 
 <br>
 To report any issues etc. contact me on discord [Internet Explorer#7105]
+<br>
+This is a work in progress and unusable in its current state
 
 ## Requirements
 
