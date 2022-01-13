@@ -2,7 +2,7 @@ import bpy
 import ConfigParser
 import logging
 import os
-import os.path #For Auto Locate
+import os.path
 import json #I pray to god that I wont have to use this
 
 #Read Settings.ini
@@ -167,5 +167,6 @@ eye_shader_node.node_tree = bpy.data.node_groups[my_group.name]
 #Auto Path Location
 def auto_locate_path() :                                    #Fuck me this is hard kill me now
     drive_letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    paks_path    = "\Riot Games\VALORANT\live\ShooterGame\Content\Paks"
     if os.path.exists(os.path.join(drive_letter + ":/")):
         return auto_locate_path
