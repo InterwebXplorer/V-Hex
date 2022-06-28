@@ -1,45 +1,20 @@
 import bpy
-import ConfigParser
-import logging
-import os
-import os.path
-import json #I pray to god that I wont have to use this
 
-#Read Settings.ini
-config = ConfigParser()
-config.read("Settings.ini")
+def importmodels():
 
-AUTO_LOCATE_PATH    = config["Options"]["AUTO_LOCATE_PATH"]
-MAIN_PATH           = config["Options"]["MAIN_PATH"]
-UE_AES              = config["Options"]["UE_AES"]
-UE_VERSION          = config["Options"]["UE_VERSION"]
-EXPORT_TEXTURES     = config["Options"]["EXPORT_TEXTURES"]
-TEXTURE_FORMAT      = config["Options"]["TEXTURE_FORMAT"]
-UPSCALE             = config["Options"]["UPSCALE"]
-MODE                = config["Options"]["MODE"]
-PACK_FILES          = config["Options"]["PACK_FILES"]
-OVERWRITE           = config["Options"]["OVERWRITE"]
+def importtextures():
 
-#Define Colors
-GREEN_RGB           = (0, 255, 0, 1)
-WHITE_RGB           = (1, 1, 1, 1)
-BLACK_RGB           = (0, 0, 0, 0,)
-RED_RGB             = (255, 0, 0, 1)
-YELLOW_RGB          = (255, 255, 0, 1)
-
-#Enable nodes
+#Create nodes
 bpy.context.scene.use_nodes = True
 
-#Create node groups @Note: Due to the use of the Shader To RGB Node eevee is only supported 
-#Hair Shader Node
-def create_hair_shader_node(context, operator, group_name) :
+def create_hair_shader_node(context, operator, group_name):
     hair_shader_node = bpy.data.node_groups.new(group_name, "CompositorNodeTree")
-    #Group Input
+    #Group input
     group_in = hair_shader_node.nodes.new("NodeGroupInput")
     hair_shader_node.inputs.new("NodeSocketImage","Diffuse")
     hair_shader_node.inputs.new("NodeSocketImage","MRS")
     hair_shader_node.inputs.new("NodeSocketImage","Normal")
-    #Group Output
+    #Group output
     group_out = hair_shader_node.nodes.new("NodeGroupOutput")
     hair_shader_node.Outputs.new("NodeSocketColor","Output")
     #Nodes
@@ -55,6 +30,7 @@ def create_hair_shader_node(context, operator, group_name) :
     bump            = hair_shader_node.nodes.new(type= "CompositorNodeBump")
     mix_rgb3        = hair_shader_node.nodes.new(type= "CompositorNodeMixRGB")
     seperate_rgb    = hair_shader_node.nodes.new(type= "CompositorNodeSeperateRGB")
+    seperate_rgb2   = hair_shader_node.nodes.new(type= "CompositorNodeSeperateRGB")
     multiply        = hair_shader_node.nodes.new(type= "CompositorNodeMultiply")
     multiply2       = hair_shader_node.nodes.new(type= "CompositorNodeMultiply")
     principled_bdsf = hair_shader_node.nodes.new(type= "CompositorNodePrincipledBDSF")
@@ -91,15 +67,14 @@ my_group = create_hair_shader_node(self, context, custom_node_name)
 hair_shader_node = context.scene.node_tree.nodes.new("CompositorNodeGroup")
 hair_shader_node.node_tree = bpy.data.node_groups[my_group.name]
 
-#Body Shader Node
-def create_body_shader_node(context, operator, group_name) :
+def create_body_shader_node(context, operator, group_name):
     body_shader_node = bpy.data.node_groups.new(group_name, "CompositorNodeTree")
-    #Group Input
+    #Group input
     group_in = body_shader_node.nodes.new("NodeGroupInput")
     body_shader_node.inputs.new("NodeSocketImage","Diffuse")
     body_shader_node.inputs.new("NodeSocketImage","MRS")
     body_shader_node.inputs.new("NodeSocketImage","Normal")
-    #Group Output
+    #Group output
     group_out = body_shader_node.nodes.new("NodeGroupOutput")
     body_shader_node.Outputs.new("NodeSocketColor","Output")
     #Nodes
@@ -131,14 +106,13 @@ my_group = create_body_shader_node(self, context, custom_node_name)
 body_shader_node = context.scene.node_tree.nodes.new("CompositorNodeGroup")
 body_shader_node.node_tree = bpy.data.node_groups[my_group.name]
 
-#Eye Shader Node
 def create_eye_shader_node(context, operator, group_name) :
     eye_shader_node = bpy.data.node_groups.new(group_name, "CompositorNodeTree")
-    #Group Input
+    #Group input
     group_in = eye_shader_node.nodes.new("NodeGroupInput")
     eye_shader_node.inputs.new("NodeSocketImage","Diffuse")
     eye_shader_node.inputs.new("NodeSocketFactor","Alpha")
-    #Group Output
+    #Group output
     group_out = eye_shader_node.nodes.new("NodeGroupOutput")
     eye_shader_node.Outputs.new("NodeSocketColor", "Output")
     #Nodes
@@ -160,13 +134,10 @@ my_group = create_eye_shader_node(self, context, custom_node_name)
 eye_shader_node = context.scene.node_tree.nodes.new("CompositorNodeGroup")
 eye_shader_node.node_tree = bpy.data.node_groups[my_group.name]
 
-#VFX Shader Node TODO
+'''
+Todo 
+VFX SHADER
+GUN SHADER
+'''
 
-#Upscale TODO
-
-#Auto Path Location
-def auto_locate_path() :                                    #Fuck me this is hard kill me now
-    drive_letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    paks_path    = "\Riot Games\VALORANT\live\ShooterGame\Content\Paks"
-    if os.path.exists(os.path.join(drive_letter + ":/")):
-        return auto_locate_path
+def misctasks(): #packing files, saving, etc
